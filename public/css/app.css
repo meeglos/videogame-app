@@ -19299,6 +19299,10 @@ video {
   transition-delay: 1000ms;
 }
 
+.small-caps {
+  font-variant: small-caps;
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
